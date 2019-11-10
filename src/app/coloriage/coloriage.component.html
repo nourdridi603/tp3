@@ -1,0 +1,8 @@
+<h1>Coloriage</h1>
+Couleur:<input type="text">
+Police:<select>
+        <option *ngFor="let c of cols" value="c" [(ngModel)]="co">{{c}}</option>
+    </select>
+    Choix du theme:<radio >Ete</radio>
+                   <radio >Standard</radio>
+                 <radio >Sombre</radio>

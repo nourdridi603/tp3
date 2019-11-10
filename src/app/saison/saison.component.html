@@ -1,0 +1,19 @@
+<h1>Correspendance des Mois/Saison</h1>
+<p>Donnez un numéro de mois:<input type="number" [(ngModel)]="numb"></p>
+
+
+<div [ngSwitch]="numb">
+<p *ngSwitchCase="1">le mois {{numb}} est en L'hiver</p>
+<p *ngSwitchCase="2">le mois {{numb}}  est en L'hiver</p>
+<p *ngSwitchCase="3">le mois {{numb}} est en Printemps</p>
+<p *ngSwitchCase="4">le mois {{numb}} est en Printemps</p>
+<p *ngSwitchCase="5">le mois {{numb}}  est en Printemps</p>
+<p *ngSwitchCase="6">le mois {{numb}}  est en L'été</p>
+<p *ngSwitchCase="7">le mois {{numb}}  est en L'été</p>
+<p *ngSwitchCase="8">le mois {{numb}}  est en L'été</p>
+<p *ngSwitchCase="9">le mois {{numb}}  est en L'automne</p>
+<p *ngSwitchCase="10">le mois {{numb}}  est en L'automne</p>
+<p *ngSwitchCase="11">le mois {{numb}}  est en L'automne</p>
+<p *ngSwitchCase="12">le mois {{numb}}  est en L'hiver</p>
+<p *ngSwitchDefault>saisir un numéro entre 1 et 12.</p>
+</div>
